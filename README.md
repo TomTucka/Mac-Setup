@@ -18,13 +18,8 @@ brew bundle
 
 ## 3. Install dotfiles
 
-Outdated: follow instructions in https://github.com/tomtucka/dotfiles
-
-```sh
-git clone https://github.com/tomtucka/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
-./script/bootstrap
-zsh
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/tomtucka/dotfiles/main/setup.sh)
 ```
 
 ## 4. Setup SSH
