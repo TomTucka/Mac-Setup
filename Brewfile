@@ -72,12 +72,6 @@ brew "goreleaser/tap/goreleaser-pro"
 brew "goreleaser/tap/nfpm"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-# JDK from the Java User Group (JUG)
-cask "adoptopenjdk"
-# Watch local content on Apple TV and Chromecast
-cask "airflow"
-cask "beardedspice"
-cask "deckset"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
@@ -88,19 +82,10 @@ cask "google-chrome"
 cask "imageoptim"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2-beta"
-# Tool to prevent the system from going into sleep mode
-cask "keepingyouawake"
-# End-to-end encryption software
-cask "keybase"
-# App to manage software development and track bugs
-cask "linear-linear"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
-# Create deployments right from the tray menu
-cask "now"
-cask "postgres"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Team communication and collaboration software
@@ -111,3 +96,5 @@ cask "spotify"
 cask "visual-studio-code"
 # Desktop client for WhatsApp
 cask "whatsapp"
+# VPN
+cask "nordvpn"
